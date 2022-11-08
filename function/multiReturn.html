@@ -6,10 +6,14 @@
   </head>
   <body>
     <script type="text/javascript" language="javascript">
-    document.write("Evin<br  />");
-    debugger;
-    document.write("Dağ<br  />");
-    debugger;
+      var f = function () {
+        var name = "Evin";
+        var surname = "Dağ";
+        var multiple = [name, surname];
+        return multiple;
+      };
+      var result = f();
+      document.write(result);
     </script>
   </body>
 </html>

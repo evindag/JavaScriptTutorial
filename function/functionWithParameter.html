@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>JavaScript Coding</title>
+  </head>
+  <body>
+    <script type="text/javascript" language="javascript">
+      function test(cost, vat = 18) {
+        var vatCost = (cost / 100) * vat;
+        var totalCost = cost + vatCost;
+        document.write("Cost : " + cost + "<br/>");
+        document.write("Vat : " + vatCost + "<br/>");
+        document.write("Total Cost: " + totalCost);
+      }
+      test(1000);
+    </script>
+  </body>
+</html>
