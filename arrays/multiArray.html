@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>JavaScript Coding</title>
+  </head>
+  <body>
+    <script type="text/javascript" language="javascript">
+      var colors = [
+        "Pink",
+        "Purple",
+        ["Black", "White", "Gray"],
+        "Orange",
+        "Yellow",
+      ];
+      //document.write(colors + "<br/>");
+      document.write(colors[0] + "<br/>");
+      document.write(colors[1] + "<br/>");
+      document.write(colors[2][0] + "<br/>");
+      document.write(colors[2][1] + "<br/>");
+      document.write(colors[2][3] + "<br/>");
+      document.write(colors[3] + "<br/>");
+      document.write(colors[4] + "<br/> <br/><br/>");
+
+      var cities = new Array(
+        "İstanbul",
+        "Ankara",
+        new Array("Mardin", "Diyarbakır", "Hatay"),
+        "İzmir",
+        "Çanakkale"
+      );
+      //document.write(cities + "<br/>");
+      document.write(cities[0] + "<br/>");
+      document.write(cities[1] + "<br/>");
+      document.write(cities[2][0] + "<br/>");
+      document.write(cities[2][1] + "<br/>");
+      document.write(cities[2][3] + "<br/>");
+      document.write(cities[3] + "<br/>");
+      document.write(cities[4] + "<br/>");
+    </script>
+  </body>
+</html>
