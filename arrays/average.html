@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>JavaScript Coding</title>
+  </head>
+  <body>
+    <script type="text/javascript" language="javascript">
+     
+     Array.prototype.average = function(){
+        var result = 0;
+        for (var index = 0; index < this.length; index++) {
+            result += this[index];
+        }
+        var av = result/this.length;
+        return av;
+     }
+     var numbers = [500,100,200,400];
+     var example = numbers.average();
+     document.write(example); 
+    </script>
+  </body>
+</html>
