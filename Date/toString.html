@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+  <head>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>JavaScript Coding</title>
+  </head>
+  <body>
+    <script type="text/javascript" language="javascript">
+    var date = new Date();
+    var datetype = typeof date;
+    document.write("Date Type : " + datetype+"<br/>");
+    var result = date.valueOf();
+    var resulttype = typeof result;
+    document.write("Value: " +result + "<br/>"+"Value Type: "+resulttype+"<br/>");
+    var tostring = date.toString();
+    var string = typeof tostring;
+    document.write(string + " " + tostring+"<br/>");
+    var newdate = date.toLocaleString();
+    var newdatetype = typeof newdate;
+    document.write("New Date: " +newdate + "<br/>"+"New Date Type: "+newdatetype+"<br/>");
+    var utcdate = date.toUTCString();
+    var utctype = typeof(utcdate);
+    document.write("Utc Date: " +utcdate + "<br/>"+"Utc Date Type: "+utctype+"<br/>");
+    var toiso = date.toISOString();
+    var isodatetype = typeof toiso;
+    document.write("ISO Date: " +toiso + "<br/>"+"ISO Date Type: "+isodatetype+"<br/>");
+    var tojson= date.toJSON();
+    var jsontype = typeof tojson;
+    document.write("JSON Date: " +tojson + "<br/>"+"JSON Date Type: "+jsontype+"<br/>");
+    var date2 = date.toDateString();
+    var datetype2 = typeof date2;
+    document.write("Date: " +date2 + "<br/>"+"Date Type: "+datetype2+"<br/>");
+    var xdate = date.toLocaleDateString();
+    var xdatetype = typeof xdate;
+    document.write("Local Date: " +xdate + "<br/>"+"Local Date Type: "+xdatetype+"<br/>");
+    var time = date.toTimeString();
+    var timetype = typeof time;
+    document.write("Time: " +time + "<br/>"+"Time Type: "+timetype+"<br/>");
+
+    </script>
+  </body>
+</html> 

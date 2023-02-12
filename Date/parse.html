@@ -6,13 +6,11 @@
   </head>
   <body>
     <script type="text/javascript" language="javascript">
+    var gap = Date.parse("July 5, 1980");
+    document.write(gap +"<br/>");
     var date = new Date();
-    document.write(date +"<br/>");
-    var timestamp = date.getTime();
-    document.write(timestamp+"<br/>");
-    var date2 = Date.now();
-    document.write(date2);
+    var gap2 =date.getTimezoneOffset();
+    document.write(gap2);
     </script>
   </body>
 </html> 
- 
